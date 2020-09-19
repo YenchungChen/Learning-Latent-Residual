@@ -1,0 +1,11 @@
+# Configuration file for training
+
+ori_root: /Path/to/directory/with/uncompressed/data/
+cpr_root: /Path/to/directory/with/compressed/data/
+logging_root: logs/h264_kinetics_5M_k_1024 # remove '/' from the end of path
+
+# training settings
+k: 1024
+max_epochs: 100
+batch_size: 8
+learning_rate: 1e-4 #0.0001
