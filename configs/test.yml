@@ -1,0 +1,9 @@
+# Configuration file for training
+
+ori_root: /Path/to/directory/with/uncompressed/data/
+cpr_root: /Path/to/directory/with/compressed/data/
+checkpoint_path: logs/h264_kinetics_5M_k_1024 # remove '/' from the end of path
+
+# test settings
+begin_epoch: 5
+end_epoch: 50
