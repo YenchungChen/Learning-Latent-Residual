@@ -10,7 +10,7 @@ Keng-Jui Chang,
 ### Introduction
 The proposed framework aims to perform frame-by-frame video compression enhancement.
 We focus on utilizing the residual information, which is the difference between a compressed video and its corresponding original/uncompressed one, and propose a fairly efficient way to transmit the residual with the compressed video in order to boost the quality of video compression.
-For more details, please checkout our [video](https://www.bmvc2020-conference.com/conference/papers/paper_0174.html), [paper](https://people.cs.nctu.edu.tw/~walon/publications/chen2020bmvc.pdf), and [supplemeantry materials](https://people.cs.nctu.edu.tw/~walon/publications/chen2020bmvc_supp.pdf).
+For more details, please check out our [video](https://www.bmvc2020-conference.com/conference/papers/paper_0174.html), [paper](https://people.cs.nctu.edu.tw/~walon/publications/chen2020bmvc.pdf), and [supplemeantry materials](https://people.cs.nctu.edu.tw/~walon/publications/chen2020bmvc_supp.pdf).
 
 ### Installation
 Download repository:
@@ -19,7 +19,7 @@ git clone https://github.com/YenchungChen/Learning-Latent-Residual.git
 ```
 Requirements are listed in `environment.yml` file.
 
-Create the environment from the environment.yml file using [Anaconda](https://www.anaconda.com/), and actiavte it:
+Create the environment from the `environment.yml` using [Anaconda](https://www.anaconda.com/), and activate it:
 ```bash
 cd Learning-Latent-Residual
 conda env create -f environment.yml
